@@ -232,7 +232,7 @@
         <scene sceneID="RAv-Eo-pNd">
             <objects>
                 <viewController id="bgU-Z0-EiC" customClass="AmigosView" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tia-B3-bPx">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="tia-B3-bPx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -263,7 +263,7 @@
                                 </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleAspectFit" alwaysBounceVertical="YES" pagingEnabled="YES" indicatorStyle="black" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="200" sectionHeaderHeight="22" sectionFooterHeight="22" id="bnj-Py-mJz">
-                                <rect key="frame" x="11" y="109" width="293" height="439"/>
+                                <rect key="frame" x="0.0" y="109" width="320" height="439"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
