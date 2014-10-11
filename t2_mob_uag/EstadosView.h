@@ -10,4 +10,6 @@
 
 @interface EstadosView : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *estadosTbl;
+
 @end

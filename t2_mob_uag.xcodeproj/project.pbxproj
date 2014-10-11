@@ -19,6 +19,16 @@
 		EEA3C88219E8D1DB001B352E /* EstadosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88119E8D1DB001B352E /* EstadosCell.m */; };
 		EEA3C88919E8E32B001B352E /* EstadosView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88819E8E32B001B352E /* EstadosView.m */; };
 		EEA3C88C19E8E33C001B352E /* AmigosView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88B19E8E33C001B352E /* AmigosView.m */; };
+		EEA3C89D19E8EEC2001B352E /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C89C19E8EEC2001B352E /* Declarations.m */; };
+		EEA3C8A419E8F317001B352E /* EstadosDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C8A319E8F317001B352E /* EstadosDetailView.m */; };
+		EEA3C8AB19E8F9F9001B352E /* nayarit.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8A519E8F9F9001B352E /* nayarit.png */; };
+		EEA3C8AC19E8F9F9001B352E /* michoacan.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8A619E8F9F9001B352E /* michoacan.png */; };
+		EEA3C8AD19E8F9F9001B352E /* jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8A719E8F9F9001B352E /* jalisco.png */; };
+		EEA3C8AE19E8F9F9001B352E /* oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8A819E8F9F9001B352E /* oaxaca.png */; };
+		EEA3C8AF19E8F9F9001B352E /* quintanaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8A919E8F9F9001B352E /* quintanaroo.png */; };
+		EEA3C8B019E8F9F9001B352E /* edomex.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8AA19E8F9F9001B352E /* edomex.png */; };
+		EEA3C8B319E8FA31001B352E /* nuevoleon.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8B119E8FA31001B352E /* nuevoleon.png */; };
+		EEA3C8B419E8FA31001B352E /* chiapas.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8B219E8FA31001B352E /* chiapas.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,18 @@
 		EEA3C88819E8E32B001B352E /* EstadosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstadosView.m; sourceTree = "<group>"; };
 		EEA3C88A19E8E33C001B352E /* AmigosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmigosView.h; sourceTree = "<group>"; };
 		EEA3C88B19E8E33C001B352E /* AmigosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmigosView.m; sourceTree = "<group>"; };
+		EEA3C89C19E8EEC2001B352E /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		EEA3C89E19E8EED4001B352E /* Declarations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		EEA3C8A219E8F317001B352E /* EstadosDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstadosDetailView.h; sourceTree = "<group>"; };
+		EEA3C8A319E8F317001B352E /* EstadosDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstadosDetailView.m; sourceTree = "<group>"; };
+		EEA3C8A519E8F9F9001B352E /* nayarit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nayarit.png; sourceTree = "<group>"; };
+		EEA3C8A619E8F9F9001B352E /* michoacan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michoacan.png; sourceTree = "<group>"; };
+		EEA3C8A719E8F9F9001B352E /* jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jalisco.png; sourceTree = "<group>"; };
+		EEA3C8A819E8F9F9001B352E /* oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oaxaca.png; sourceTree = "<group>"; };
+		EEA3C8A919E8F9F9001B352E /* quintanaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quintanaroo.png; sourceTree = "<group>"; };
+		EEA3C8AA19E8F9F9001B352E /* edomex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edomex.png; sourceTree = "<group>"; };
+		EEA3C8B119E8FA31001B352E /* nuevoleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuevoleon.png; sourceTree = "<group>"; };
+		EEA3C8B219E8FA31001B352E /* chiapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chiapas.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +123,8 @@
 				EE2E61ED19E8C18C007ED7AB /* Images.xcassets */,
 				EE2E61EF19E8C18C007ED7AB /* LaunchScreen.xib */,
 				EE2E61E019E8C18C007ED7AB /* Supporting Files */,
-				EEA3C88019E8D1DB001B352E /* EstadosCell.h */,
-				EEA3C88119E8D1DB001B352E /* EstadosCell.m */,
+				EEA3C89C19E8EEC2001B352E /* Declarations.m */,
+				EEA3C89E19E8EED4001B352E /* Declarations.h */,
 			);
 			path = t2_mob_uag;
 			sourceTree = "<group>";
@@ -110,6 +132,14 @@
 		EE2E61E019E8C18C007ED7AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEA3C8B119E8FA31001B352E /* nuevoleon.png */,
+				EEA3C8B219E8FA31001B352E /* chiapas.png */,
+				EEA3C8A519E8F9F9001B352E /* nayarit.png */,
+				EEA3C8A619E8F9F9001B352E /* michoacan.png */,
+				EEA3C8A719E8F9F9001B352E /* jalisco.png */,
+				EEA3C8A819E8F9F9001B352E /* oaxaca.png */,
+				EEA3C8A919E8F9F9001B352E /* quintanaroo.png */,
+				EEA3C8AA19E8F9F9001B352E /* edomex.png */,
 				EE2E620619E8C570007ED7AB /* foreveralone.png */,
 				EE2E620719E8C570007ED7AB /* mexico.png */,
 				EE2E61E119E8C18C007ED7AB /* Info.plist */,
@@ -138,12 +168,16 @@
 		EEA3C88319E8E272001B352E /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				EEA3C88119E8D1DB001B352E /* EstadosCell.m */,
+				EEA3C88019E8D1DB001B352E /* EstadosCell.h */,
 				EE2E61E719E8C18C007ED7AB /* View1.h */,
 				EE2E61E819E8C18C007ED7AB /* View1.m */,
 				EEA3C88719E8E32B001B352E /* EstadosView.h */,
 				EEA3C88819E8E32B001B352E /* EstadosView.m */,
 				EEA3C88A19E8E33C001B352E /* AmigosView.h */,
 				EEA3C88B19E8E33C001B352E /* AmigosView.m */,
+				EEA3C8A219E8F317001B352E /* EstadosDetailView.h */,
+				EEA3C8A319E8F317001B352E /* EstadosDetailView.m */,
 			);
 			name = Custom;
 			sourceTree = "<group>";
@@ -228,10 +262,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA3C8AE19E8F9F9001B352E /* oaxaca.png in Resources */,
+				EEA3C8AF19E8F9F9001B352E /* quintanaroo.png in Resources */,
+				EEA3C8B019E8F9F9001B352E /* edomex.png in Resources */,
+				EEA3C8B419E8FA31001B352E /* chiapas.png in Resources */,
 				EE2E620919E8C570007ED7AB /* mexico.png in Resources */,
 				EE2E61EC19E8C18C007ED7AB /* Main.storyboard in Resources */,
+				EEA3C8AB19E8F9F9001B352E /* nayarit.png in Resources */,
+				EEA3C8AD19E8F9F9001B352E /* jalisco.png in Resources */,
+				EEA3C8B319E8FA31001B352E /* nuevoleon.png in Resources */,
 				EE2E61F119E8C18C007ED7AB /* LaunchScreen.xib in Resources */,
 				EE2E61EE19E8C18C007ED7AB /* Images.xcassets in Resources */,
+				EEA3C8AC19E8F9F9001B352E /* michoacan.png in Resources */,
 				EE2E620819E8C570007ED7AB /* foreveralone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +295,11 @@
 				EE2E61E919E8C18C007ED7AB /* View1.m in Sources */,
 				EE2E61E619E8C18C007ED7AB /* AppDelegate.m in Sources */,
 				EEA3C88C19E8E33C001B352E /* AmigosView.m in Sources */,
+				EEA3C89D19E8EEC2001B352E /* Declarations.m in Sources */,
 				EEA3C88219E8D1DB001B352E /* EstadosCell.m in Sources */,
 				EEA3C88919E8E32B001B352E /* EstadosView.m in Sources */,
 				EE2E61E319E8C18C007ED7AB /* main.m in Sources */,
+				EEA3C8A419E8F317001B352E /* EstadosDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

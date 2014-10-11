@@ -10,4 +10,6 @@
 
 @interface EstadosCell : UITableViewCell
 
+@property (strong, nonatomic) IBOutlet UILabel *lblEstado;
+
 @end
