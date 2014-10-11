@@ -10,4 +10,9 @@
 
 @interface AmigosView : UIViewController
 
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedOption;
+@property (strong, nonatomic) IBOutlet UITableView *tblAmigos;
+
+- (IBAction)optionChanged:(id)sender;
+
 @end

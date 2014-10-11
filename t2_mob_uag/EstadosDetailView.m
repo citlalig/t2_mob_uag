@@ -59,6 +59,7 @@ NSMutableArray *maCityNames;
         cell = [[EstadosDetailCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     cell.lblCity.text = maCityNames[indexPath.row];
+    cell.imgCity.image = [UIImage imageNamed: maCityImages[indexPath.row]];
     return cell;
     
 }

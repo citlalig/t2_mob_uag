@@ -16,6 +16,13 @@
 		EE2E61FD19E8C18C007ED7AB /* t2_mob_uagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E61FC19E8C18C007ED7AB /* t2_mob_uagTests.m */; };
 		EE2E620819E8C570007ED7AB /* foreveralone.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2E620619E8C570007ED7AB /* foreveralone.png */; };
 		EE2E620919E8C570007ED7AB /* mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2E620719E8C570007ED7AB /* mexico.png */; };
+		EE8B9BA519E9070C00EBF050 /* AmigoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8B9BA419E9070C00EBF050 /* AmigoCell.m */; };
+		EE8B9BAC19E90C5500EBF050 /* meme6.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8B9BA619E90C5500EBF050 /* meme6.png */; };
+		EE8B9BAD19E90C5500EBF050 /* meme5.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8B9BA719E90C5500EBF050 /* meme5.png */; };
+		EE8B9BAE19E90C5500EBF050 /* meme4.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8B9BA819E90C5500EBF050 /* meme4.png */; };
+		EE8B9BAF19E90C5500EBF050 /* meme3.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8B9BA919E90C5500EBF050 /* meme3.png */; };
+		EE8B9BB019E90C5500EBF050 /* meme2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8B9BAA19E90C5500EBF050 /* meme2.png */; };
+		EE8B9BB119E90C5500EBF050 /* meme1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8B9BAB19E90C5500EBF050 /* meme1.png */; };
 		EEA3C88219E8D1DB001B352E /* EstadosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88119E8D1DB001B352E /* EstadosCell.m */; };
 		EEA3C88919E8E32B001B352E /* EstadosView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88819E8E32B001B352E /* EstadosView.m */; };
 		EEA3C88C19E8E33C001B352E /* AmigosView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88B19E8E33C001B352E /* AmigosView.m */; };
@@ -61,6 +68,14 @@
 		EE2E61FC19E8C18C007ED7AB /* t2_mob_uagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = t2_mob_uagTests.m; sourceTree = "<group>"; };
 		EE2E620619E8C570007ED7AB /* foreveralone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foreveralone.png; sourceTree = "<group>"; };
 		EE2E620719E8C570007ED7AB /* mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mexico.png; sourceTree = "<group>"; };
+		EE8B9BA319E9070C00EBF050 /* AmigoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmigoCell.h; sourceTree = "<group>"; };
+		EE8B9BA419E9070C00EBF050 /* AmigoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmigoCell.m; sourceTree = "<group>"; };
+		EE8B9BA619E90C5500EBF050 /* meme6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meme6.png; sourceTree = "<group>"; };
+		EE8B9BA719E90C5500EBF050 /* meme5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meme5.png; sourceTree = "<group>"; };
+		EE8B9BA819E90C5500EBF050 /* meme4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meme4.png; sourceTree = "<group>"; };
+		EE8B9BA919E90C5500EBF050 /* meme3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meme3.png; sourceTree = "<group>"; };
+		EE8B9BAA19E90C5500EBF050 /* meme2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meme2.png; sourceTree = "<group>"; };
+		EE8B9BAB19E90C5500EBF050 /* meme1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meme1.png; sourceTree = "<group>"; };
 		EEA3C88019E8D1DB001B352E /* EstadosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstadosCell.h; sourceTree = "<group>"; };
 		EEA3C88119E8D1DB001B352E /* EstadosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstadosCell.m; sourceTree = "<group>"; };
 		EEA3C88719E8E32B001B352E /* EstadosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstadosView.h; sourceTree = "<group>"; };
@@ -141,6 +156,12 @@
 		EE2E61E019E8C18C007ED7AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE8B9BA619E90C5500EBF050 /* meme6.png */,
+				EE8B9BA719E90C5500EBF050 /* meme5.png */,
+				EE8B9BA819E90C5500EBF050 /* meme4.png */,
+				EE8B9BA919E90C5500EBF050 /* meme3.png */,
+				EE8B9BAA19E90C5500EBF050 /* meme2.png */,
+				EE8B9BAB19E90C5500EBF050 /* meme1.png */,
 				EEA3C8B819E900CC001B352E /* ciudad3.png */,
 				EEA3C8B919E900CC001B352E /* ciudad2.png */,
 				EEA3C8BA19E900CC001B352E /* ciudad1.png */,
@@ -192,6 +213,8 @@
 				EEA3C8A319E8F317001B352E /* EstadosDetailView.m */,
 				EEA3C8B519E8FF10001B352E /* EstadosDetailCell.h */,
 				EEA3C8B619E8FF10001B352E /* EstadosDetailCell.m */,
+				EE8B9BA319E9070C00EBF050 /* AmigoCell.h */,
+				EE8B9BA419E9070C00EBF050 /* AmigoCell.m */,
 			);
 			name = Custom;
 			sourceTree = "<group>";
@@ -277,15 +300,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEA3C8AE19E8F9F9001B352E /* oaxaca.png in Resources */,
+				EE8B9BAE19E90C5500EBF050 /* meme4.png in Resources */,
 				EEA3C8AF19E8F9F9001B352E /* quintanaroo.png in Resources */,
+				EE8B9BB019E90C5500EBF050 /* meme2.png in Resources */,
 				EEA3C8B019E8F9F9001B352E /* edomex.png in Resources */,
 				EEA3C8B419E8FA31001B352E /* chiapas.png in Resources */,
 				EE2E620919E8C570007ED7AB /* mexico.png in Resources */,
 				EE2E61EC19E8C18C007ED7AB /* Main.storyboard in Resources */,
+				EE8B9BAF19E90C5500EBF050 /* meme3.png in Resources */,
 				EEA3C8AB19E8F9F9001B352E /* nayarit.png in Resources */,
+				EE8B9BAC19E90C5500EBF050 /* meme6.png in Resources */,
 				EEA3C8BC19E900CC001B352E /* ciudad2.png in Resources */,
+				EE8B9BAD19E90C5500EBF050 /* meme5.png in Resources */,
 				EEA3C8AD19E8F9F9001B352E /* jalisco.png in Resources */,
 				EEA3C8BD19E900CC001B352E /* ciudad1.png in Resources */,
+				EE8B9BB119E90C5500EBF050 /* meme1.png in Resources */,
 				EEA3C8B319E8FA31001B352E /* nuevoleon.png in Resources */,
 				EEA3C8BB19E900CC001B352E /* ciudad3.png in Resources */,
 				EE2E61F119E8C18C007ED7AB /* LaunchScreen.xib in Resources */,
@@ -314,6 +343,7 @@
 				EE2E61E619E8C18C007ED7AB /* AppDelegate.m in Sources */,
 				EEA3C88C19E8E33C001B352E /* AmigosView.m in Sources */,
 				EEA3C89D19E8EEC2001B352E /* Declarations.m in Sources */,
+				EE8B9BA519E9070C00EBF050 /* AmigoCell.m in Sources */,
 				EEA3C88219E8D1DB001B352E /* EstadosCell.m in Sources */,
 				EEA3C88919E8E32B001B352E /* EstadosView.m in Sources */,
 				EE2E61E319E8C18C007ED7AB /* main.m in Sources */,
