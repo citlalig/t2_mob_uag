@@ -8,11 +8,14 @@
 
 #import "EstadosDetailView.h"
 #import "Declarations.h"
+#import "EstadosDetailCell.h"
 
 @interface EstadosDetailView ()
 
 @end
 
+NSMutableArray *maCityImages;
+NSMutableArray *maCityNames;
 @implementation EstadosDetailView
 
 - (void)viewDidLoad {
@@ -21,6 +24,9 @@
     
     self.lblEstado.text = strSelectedName;
     self.imgEstado.image = [UIImage imageNamed:(NSString *)strSelectedImage];
+    maCityNames = [NSMutableArray arrayWithObjects: @"ciudad 1", @"ciudad 2", @"ciudad 3", nil];
+    maCityImages = [NSMutableArray arrayWithObjects: @"ciudad1.png", @"ciudad2.png", @"ciudad3.png", nil];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,14 +34,41 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
 }
-*/
+//-------------------------------------------------------------------------------
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 3;
+}
+//-------------------------------------------------------------------------------
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 35;
+}
+//-------------------------------------------------------------------------------
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"EstadosDetailCell";
+    
+    EstadosDetailCell *cell = (EstadosDetailCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil)
+    {
+        cell = [[EstadosDetailCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    cell.lblCity.text = maCityNames[indexPath.row];
+    return cell;
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    self.imgEstado.image = [UIImage imageNamed: maCityImages[indexPath.row] ];
+}
+
+
+
 
 @end

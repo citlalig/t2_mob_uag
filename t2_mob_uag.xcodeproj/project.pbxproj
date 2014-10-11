@@ -29,6 +29,10 @@
 		EEA3C8B019E8F9F9001B352E /* edomex.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8AA19E8F9F9001B352E /* edomex.png */; };
 		EEA3C8B319E8FA31001B352E /* nuevoleon.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8B119E8FA31001B352E /* nuevoleon.png */; };
 		EEA3C8B419E8FA31001B352E /* chiapas.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8B219E8FA31001B352E /* chiapas.png */; };
+		EEA3C8B719E8FF10001B352E /* EstadosDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C8B619E8FF10001B352E /* EstadosDetailCell.m */; };
+		EEA3C8BB19E900CC001B352E /* ciudad3.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8B819E900CC001B352E /* ciudad3.png */; };
+		EEA3C8BC19E900CC001B352E /* ciudad2.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8B919E900CC001B352E /* ciudad2.png */; };
+		EEA3C8BD19E900CC001B352E /* ciudad1.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA3C8BA19E900CC001B352E /* ciudad1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +79,11 @@
 		EEA3C8AA19E8F9F9001B352E /* edomex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edomex.png; sourceTree = "<group>"; };
 		EEA3C8B119E8FA31001B352E /* nuevoleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuevoleon.png; sourceTree = "<group>"; };
 		EEA3C8B219E8FA31001B352E /* chiapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chiapas.png; sourceTree = "<group>"; };
+		EEA3C8B519E8FF10001B352E /* EstadosDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstadosDetailCell.h; sourceTree = "<group>"; };
+		EEA3C8B619E8FF10001B352E /* EstadosDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstadosDetailCell.m; sourceTree = "<group>"; };
+		EEA3C8B819E900CC001B352E /* ciudad3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ciudad3.png; sourceTree = "<group>"; };
+		EEA3C8B919E900CC001B352E /* ciudad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ciudad2.png; sourceTree = "<group>"; };
+		EEA3C8BA19E900CC001B352E /* ciudad1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ciudad1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +141,9 @@
 		EE2E61E019E8C18C007ED7AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEA3C8B819E900CC001B352E /* ciudad3.png */,
+				EEA3C8B919E900CC001B352E /* ciudad2.png */,
+				EEA3C8BA19E900CC001B352E /* ciudad1.png */,
 				EEA3C8B119E8FA31001B352E /* nuevoleon.png */,
 				EEA3C8B219E8FA31001B352E /* chiapas.png */,
 				EEA3C8A519E8F9F9001B352E /* nayarit.png */,
@@ -178,6 +190,8 @@
 				EEA3C88B19E8E33C001B352E /* AmigosView.m */,
 				EEA3C8A219E8F317001B352E /* EstadosDetailView.h */,
 				EEA3C8A319E8F317001B352E /* EstadosDetailView.m */,
+				EEA3C8B519E8FF10001B352E /* EstadosDetailCell.h */,
+				EEA3C8B619E8FF10001B352E /* EstadosDetailCell.m */,
 			);
 			name = Custom;
 			sourceTree = "<group>";
@@ -269,8 +283,11 @@
 				EE2E620919E8C570007ED7AB /* mexico.png in Resources */,
 				EE2E61EC19E8C18C007ED7AB /* Main.storyboard in Resources */,
 				EEA3C8AB19E8F9F9001B352E /* nayarit.png in Resources */,
+				EEA3C8BC19E900CC001B352E /* ciudad2.png in Resources */,
 				EEA3C8AD19E8F9F9001B352E /* jalisco.png in Resources */,
+				EEA3C8BD19E900CC001B352E /* ciudad1.png in Resources */,
 				EEA3C8B319E8FA31001B352E /* nuevoleon.png in Resources */,
+				EEA3C8BB19E900CC001B352E /* ciudad3.png in Resources */,
 				EE2E61F119E8C18C007ED7AB /* LaunchScreen.xib in Resources */,
 				EE2E61EE19E8C18C007ED7AB /* Images.xcassets in Resources */,
 				EEA3C8AC19E8F9F9001B352E /* michoacan.png in Resources */,
@@ -292,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA3C8B719E8FF10001B352E /* EstadosDetailCell.m in Sources */,
 				EE2E61E919E8C18C007ED7AB /* View1.m in Sources */,
 				EE2E61E619E8C18C007ED7AB /* AppDelegate.m in Sources */,
 				EEA3C88C19E8E33C001B352E /* AmigosView.m in Sources */,
