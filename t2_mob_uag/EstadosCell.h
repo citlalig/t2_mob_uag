@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EstadosCell.h
 //  t2_mob_uag
 //
 //  Created by Citlali Garcia on 10/10/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EstadosCell : UITableViewCell
 
 @end
-

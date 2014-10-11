@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Personal. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "View1.h"
 
-@interface ViewController ()
+@interface View1 ()
 
 @end
 
-@implementation ViewController
+@implementation View1
 
 - (void)viewDidLoad {
     [super viewDidLoad];
