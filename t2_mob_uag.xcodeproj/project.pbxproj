@@ -17,6 +17,8 @@
 		EE2E620819E8C570007ED7AB /* foreveralone.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2E620619E8C570007ED7AB /* foreveralone.png */; };
 		EE2E620919E8C570007ED7AB /* mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2E620719E8C570007ED7AB /* mexico.png */; };
 		EEA3C88219E8D1DB001B352E /* EstadosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88119E8D1DB001B352E /* EstadosCell.m */; };
+		EEA3C88919E8E32B001B352E /* EstadosView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88819E8E32B001B352E /* EstadosView.m */; };
+		EEA3C88C19E8E33C001B352E /* AmigosView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C88B19E8E33C001B352E /* AmigosView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		EE2E620719E8C570007ED7AB /* mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mexico.png; sourceTree = "<group>"; };
 		EEA3C88019E8D1DB001B352E /* EstadosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstadosCell.h; sourceTree = "<group>"; };
 		EEA3C88119E8D1DB001B352E /* EstadosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstadosCell.m; sourceTree = "<group>"; };
+		EEA3C88719E8E32B001B352E /* EstadosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstadosView.h; sourceTree = "<group>"; };
+		EEA3C88819E8E32B001B352E /* EstadosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstadosView.m; sourceTree = "<group>"; };
+		EEA3C88A19E8E33C001B352E /* AmigosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmigosView.h; sourceTree = "<group>"; };
+		EEA3C88B19E8E33C001B352E /* AmigosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmigosView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +94,9 @@
 		EE2E61DF19E8C18C007ED7AB /* t2_mob_uag */ = {
 			isa = PBXGroup;
 			children = (
+				EEA3C88319E8E272001B352E /* Custom */,
 				EE2E61E419E8C18C007ED7AB /* AppDelegate.h */,
 				EE2E61E519E8C18C007ED7AB /* AppDelegate.m */,
-				EE2E61E719E8C18C007ED7AB /* View1.h */,
-				EE2E61E819E8C18C007ED7AB /* View1.m */,
 				EE2E61EA19E8C18C007ED7AB /* Main.storyboard */,
 				EE2E61ED19E8C18C007ED7AB /* Images.xcassets */,
 				EE2E61EF19E8C18C007ED7AB /* LaunchScreen.xib */,
@@ -128,6 +133,19 @@
 				EE2E61FB19E8C18C007ED7AB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEA3C88319E8E272001B352E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EE2E61E719E8C18C007ED7AB /* View1.h */,
+				EE2E61E819E8C18C007ED7AB /* View1.m */,
+				EEA3C88719E8E32B001B352E /* EstadosView.h */,
+				EEA3C88819E8E32B001B352E /* EstadosView.m */,
+				EEA3C88A19E8E33C001B352E /* AmigosView.h */,
+				EEA3C88B19E8E33C001B352E /* AmigosView.m */,
+			);
+			name = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +252,9 @@
 			files = (
 				EE2E61E919E8C18C007ED7AB /* View1.m in Sources */,
 				EE2E61E619E8C18C007ED7AB /* AppDelegate.m in Sources */,
+				EEA3C88C19E8E33C001B352E /* AmigosView.m in Sources */,
 				EEA3C88219E8D1DB001B352E /* EstadosCell.m in Sources */,
+				EEA3C88919E8E32B001B352E /* EstadosView.m in Sources */,
 				EE2E61E319E8C18C007ED7AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
